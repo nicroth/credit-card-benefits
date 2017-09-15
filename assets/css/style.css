@@ -1,0 +1,82 @@
+body
+{
+
+}
+
+.post_listing
+{
+	font: 400 18px/30px ;
+	width: 600px;
+	margin: 0 auto;
+}
+
+.post_listing h1
+{
+	font: 700 48px/48px;
+	margin: 100px 0 100px 0;
+}
+
+.post_stub
+{
+	padding: 25px 0 5px 0;
+	border-bottom: 1px solid #E9E9E9;
+}
+
+.post_stub a 
+{
+	font: 400 18px/22px;
+	color: #2A2C39;
+	text-decoration: none;
+}
+
+.post_stub a:hover
+{
+	color: #666666;
+}
+
+.post_stub time
+{
+	font: 400 12px/22px;
+	float: right;
+	color: #999999;
+}
+
+.post {
+	width: 600px;
+	margin: 0 auto;
+}
+
+/* "responsive" stuff
+*/
+
+@media only screen and (max-width: 600px) {
+
+	.post_listing
+	{
+		width: 90%;
+		padding: 5%;
+	}
+
+	.post_stub a
+	{
+		font-size: 14px;
+	}
+
+	.post_listing h1
+	{
+		margin: 0px 0 0px 0;
+	}
+
+	.post_listing time
+	{
+		font-size: 10px;
+	}
+
+	.post
+	{
+		width: 80%;
+		padding: 10%;
+		left: 0;
+		margin-left: 0;
+	}
+}

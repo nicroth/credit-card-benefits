@@ -1,0 +1,7 @@
+<h2>{{ include.content }}</h2>
+{% for post in site.categories[include.content] %}
+<div class="post_stub">
+    <a href="{{ post.url }}">{{ post.title }}</a>
+    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
+</div>
+{% endfor %}

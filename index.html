@@ -1,16 +1,16 @@
 ---
 layout: default
-title: Credit Card Benefits
+title: Credit Card Benefits Guide
 ---
 
 <div class="post_listing">
-<h1>Cards</h1>
-  {% for post in site.posts %}
-    <div class="post_stub">
-      <a href="{{ post.url }}">{{ post.title }}</a>
-      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
-    </div>
-  {% endfor %}
+<h1>Credit Card Benefits Guide</h1>
+
+  {% include section.html content="American Express" %}
+  {% include section.html content="Barclaycard" %}
+  {% include section.html content="Chase" %}
+  {% include section.html content="Citi" %}
+  {% include section.html content="Discover" %}
+
+
 </div>
-
-
