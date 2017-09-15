@@ -3,7 +3,6 @@ layout: post
 title: Chase Sapphire Reserve
 category: Chase
 ---
-### Chase Sapphire Reserve
 
 See detailed benefits [here](https://www.chasebenefits.com/sapphirereserve). It's interesting to note that these benefits almost entirely mention "some portion" of the trip cost must be charged to the card, whereas other cards require the "full cost" to be charged. 
 

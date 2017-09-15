@@ -4,8 +4,6 @@ title: American Express Platinum Card
 category: American Express
 ---
 
-### American Express Platinum Card 
-
 See detailed benefits [here](https://www304.americanexpress.com/personal-card-application/member/terms/premier-rewards-gold-card/36182-11-0/#cardbenefits "Amex Platinum Benefits").
 
 ###### Rental Car
